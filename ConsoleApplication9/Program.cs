@@ -34,5 +34,13 @@ namespace ConsoleApplication9
                 Console.WriteLine(a);
             }
         }
+        static void Display4()
+        {
+            var argument = new List<bool> { true, false, true };
+            foreach (var a in argument)
+            {
+                Console.WriteLine(a);
+            }
+        }
     }
 }
