@@ -18,5 +18,13 @@ namespace ConsoleApplication9
                 Console.WriteLine(a);
             }
         }
+        static void Display1(List<bool> argument)
+        {
+            foreach (var a in argument)
+            {
+                Console.WriteLine(a);
+            }
+        }
+
     }
 }
